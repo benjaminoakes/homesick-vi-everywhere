@@ -1,4 +1,3 @@
-homesick-vi-everywhere
-======================
+# homesick-vi-everywhere
 
-A Homesick castle to use vi keybindings everywhere
+A Homesick castle to use `vi` keybindings everywhere.
