@@ -2,7 +2,17 @@
 
 A Homesick castle to use `vi` keybindings everywhere.
 
-For example, this will allow you to use `vi` keybindings (instead of the default `emacs` keybindings) in:
+## What Is It?
+
+### Problem
+
+Many programs default to `emacs` keybindings, but your favorite editor is `vi`.  You would like to have `bash`, `irb`, etc. to have the same keybindings you've come to know and love.
+
+### Solution
+
+Use `homesick-vi-everywhere`, a package of dotfiles to enable `vi` keybindings wherever possible.
+
+This will allow you to use `vi` keybindings in:
 
 * `bash`
 * `irb` (Ruby)
@@ -10,7 +20,7 @@ For example, this will allow you to use `vi` keybindings (instead of the default
 * `python`
 * `sqlite3`
 * `tmux`
-* ...and possibly others that use GNU readline
+* ...and others that use GNU readline
 
 ## Installation
 
