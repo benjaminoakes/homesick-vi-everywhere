@@ -1,0 +1,4 @@
+# Use vi mode for bash and other programs that use GNU readline (such as irb, python, sqlite3, mysql, etc.)
+set editing-mode vi 
+set keymap vi
+set completion-ignore-case On

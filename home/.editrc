@@ -1,0 +1,3 @@
+bind -v
+bind "set completion-ignore-case on"
+bind \\t rl_complete
