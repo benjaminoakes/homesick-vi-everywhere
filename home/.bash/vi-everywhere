@@ -1,7 +1,14 @@
 #!/usr/bin/env bash
 
 # ## Environment Variables
+#
+# ### See Also
+#
+# * [VISUAL vs EDITOR what's the difference?](http://unix.stackexchange.com/questions/4859/visual-vs-editor-whats-the-difference)
+
+# It might make more sense to have `vi -e` for `EDITOR`
 export EDITOR="vi"
+export VISUAL="vi"
 
 # ## Aliases
 #
