@@ -10,6 +10,13 @@
 export EDITOR="vi"
 export VISUAL="vi"
 
+# ## Bindings
+
+# Allow a key-press to clear the screen.  Typically, this is ^L in emacs mode.
+#
+# FIXME: This doesn't seem to work in GNU screen, but works elsewhere.
+bind -x '"\C-l":clear'
+
 # ## Aliases
 #
 # Add vi input to progams that don't use GNU readline.
