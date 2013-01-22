@@ -8,6 +8,8 @@
 
 # It might make more sense to have `vi -e` for `EDITOR`
 export EDITOR="vi"
+# Has `vi` keybindings by default (although you can kind of use `vim` as a pager).
+export PAGER="less"
 export VISUAL="vi"
 
 # ## Bindings
