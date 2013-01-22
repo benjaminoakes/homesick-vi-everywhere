@@ -1,0 +1,18 @@
+# ## Environment Variables
+export EDITOR="vi"
+
+# ## Aliases
+#
+# Add vi input to progams that don't use GNU readline.
+#
+# ### Dependencies
+#
+# Ubuntu: `sudo apt-get install rlwrap`
+# 
+# ### See Also
+#
+# * http://nodejs.org/docs/v0.4.7/api/repl.html
+
+# FIXME: Tab completion
+alias node="env NODE_NO_READLINE=1 rlwrap node"
+alias coffee="env NODE_NO_READLINE=1 rlwrap coffee"
