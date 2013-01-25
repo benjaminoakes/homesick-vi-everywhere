@@ -2,3 +2,13 @@
 set editing-mode vi 
 set keymap vi
 set completion-ignore-case On
+
+# Enable 8bit input
+set meta-flag on
+set input-meta on
+
+# Turns off 8th bit stripping
+set convert-meta off
+
+# Keep the 8th bit for display
+set output-meta on
