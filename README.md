@@ -36,6 +36,10 @@ If you want to modify your shell so that `vi` is used in more cases, source `vi-
 
     source "$HOME/.bash/vi-everywhere"
 
+.tmux.conf
+
+    source-file "$HOME/.bash/vi-everywhere"
+
 Please refer to [the documentation for Homesick](https://github.com/technicalpickles/homesick) for more information.  If you run into an issue specific to this project, please [create an issue on GitHub](https://github.com/benjaminoakes/homesick-vi-everywhere/issues).
 
 ## Contributing
