@@ -1,5 +1,3 @@
-#!/usr/bin/env bash
-
 # ## Environment Variables
 #
 # ### See Also
