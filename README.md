@@ -36,7 +36,7 @@ If you want to modify your shell so that `vi` is used in more cases, source `vi-
 
     source "$HOME/.vi-everywhere/bash.d/init.sh"
 
-And for `tmux`, add this line in `~/tmux.conf`:
+And for `tmux`, add this line in `~/.tmux.conf`:
 
     source-file "$HOME/.vi-everywhere/tmux.conf"
 
