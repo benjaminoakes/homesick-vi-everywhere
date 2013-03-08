@@ -34,11 +34,11 @@ It's the same as any other Homesick castle (keep in mind that you can have more 
 
 If you want to modify your shell so that `vi` is used in more cases, source `vi-everywhere` like so:
 
-    source "$HOME/.bash/vi-everywhere"
+    source "$HOME/.vi-everywhere/bash.d/init.sh"
 
-.tmux.conf
+And for `tmux`, add this line in `~/tmux.conf`:
 
-    source-file "$HOME/.bash/vi-everywhere"
+    source-file "$HOME/.vi-everywhere/tmux.conf"
 
 Please refer to [the documentation for Homesick](https://github.com/technicalpickles/homesick) for more information.  If you run into an issue specific to this project, please [create an issue on GitHub](https://github.com/benjaminoakes/homesick-vi-everywhere/issues).
 
