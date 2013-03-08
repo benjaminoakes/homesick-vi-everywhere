@@ -25,12 +25,13 @@ bind -x '"\C-l":clear'
 #
 # ### Dependencies
 #
-# Ubuntu: `sudo apt-get install rlwrap`
+# * Fedora: `sudo yum install rlwrap`
+# * Ubuntu: `sudo apt-get install rlwrap`
 # 
 # ### See Also
 #
 # * http://nodejs.org/docs/v0.4.7/api/repl.html
 
-# FIXME: Tab completion
+# FIXME: Tab completion doesn't work
 alias node="env NODE_NO_READLINE=1 rlwrap node"
 alias coffee="env NODE_NO_READLINE=1 rlwrap coffee"

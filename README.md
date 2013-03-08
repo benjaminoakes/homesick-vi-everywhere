@@ -40,9 +40,17 @@ And for `tmux`, add this line in `~/tmux.conf`:
 
     source-file "$HOME/.vi-everywhere/tmux.conf"
 
-Please refer to [the documentation for Homesick](https://github.com/technicalpickles/homesick) for more information.  If you run into an issue specific to this project, please [create an issue on GitHub](https://github.com/benjaminoakes/homesick-vi-everywhere/issues).
+Please refer to [the documentation for Homesick](https://github.com/technicalpickles/homesick) for more information.
+
+## Updating
+
+Like with installation, it's the same as any other Homesick castle:
+
+    homesick pull benjaminoakes/homesick-vi-everywhere
 
 ## Contributing
+
+If you run into an issue specific to this project, please [create an issue on GitHub](https://github.com/benjaminoakes/homesick-vi-everywhere/issues).
 
 Pull requests to add or improve `vi` keybindings for more programs are welcome!
 
