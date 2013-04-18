@@ -12,10 +12,18 @@ export VISUAL="vi"
 
 # ## Bindings
 
-# Allow a key-press to clear the screen.  Typically, this is ^L in emacs mode.
-#
-# FIXME: This doesn't seem to work in GNU screen, but works elsewhere.
-bind -x '"\C-l":clear'
+# Only bind with interactive shells, otherwise will get:
+# 
+#     bind: warning: line editing not enabled
+case "$-" in
+*i*)
+  # TODO: Maybe to `bind -f /etc/inputrc` too
+
+  # Allow a key-press to clear the screen.  Typically, this is ^L in emacs mode.
+  #
+  # FIXME: This doesn't seem to work in GNU screen, but works elsewhere.
+  bind -x '"\C-l":clear'
+esac
 
 # ## Aliases
 #
