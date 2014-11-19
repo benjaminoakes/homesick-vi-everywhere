@@ -30,7 +30,7 @@ It's the same as any other Homesick castle (keep in mind that you can have more 
 
     gem install homesick
     homesick clone benjaminoakes/homesick-vi-everywhere
-    homesick symlink benjaminoakes/homesick-vi-everywhere
+	homesick symlink homesick-vi-everywhere
 
 If you want to modify your shell so that `vi` is used in more cases, source `vi-everywhere` like so:
 
