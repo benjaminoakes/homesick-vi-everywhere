@@ -1,9 +1,0 @@
-#!/bin/bash -x
-# A simple shell-based provisioner for Vagrant.
-# 
-# Documentation: [Shell Provisioner](http://vagrantup.com/v1/docs/provisioners/shell.html)
-set -o errexit
-
-sudo apt-get update
-sudo apt-get install -y git-core ruby1.9.1 rlwrap nodejs tmux
-sudo gem install homesick
