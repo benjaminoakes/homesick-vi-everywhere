@@ -4,7 +4,7 @@ A Homesick castle to use `vi` keybindings everywhere.
 
 ## Shortcut
 
-Need `vi` mode right away?  Hit `M-C-j` (`Meta` then `Control` then `j`).  On Ubuntu, `Meta` is the right `Alt` key.  On the Mac, you might have to hit the keys all at once (after configuring Meta in your terminal, typically as `Option`).  [More info...](https://cnswww.cns.cwru.edu/php/chet/readline/readline.html#SEC22) (🚫 _broken link as of 2019-07-31_.  An [archived version](https://web.archive.org/web/20171027212523/https://cnswww.cns.cwru.edu/php/chet/readline/readline.html#IDX207) is available.)
+Need `vi` mode right away?  Hit `M-C-j` (`Meta` then `Control` then `j`).  On Ubuntu, `Meta` is the right `Alt` key.  On the Mac, you might have to hit the keys all at once (after configuring Meta in your terminal, typically as `Option`).  [More info...](https://cnswww.cns.cwru.edu/php/chet/readline/readline.html#SEC22) (🚫 _broken link as of 2019-07-31_.  An [archived version](https://web.archive.org/web/20171027212523/https://cnswww.cns.cwru.edu/php/chet/readline/readline.html#IDX207) is available.  Note that this [can be disabled](https://unix.stackexchange.com/a/113820).)
 
 This is temporary, but useful sometimes, like when using a Docker container.
 
